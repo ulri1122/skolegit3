@@ -32,7 +32,7 @@ struct Question {
         else {
             print(gameHint)
             hintDeliveret = true
-            print("du har brugt dit sidste hint")
+            print("du er til mænd kenneth")
         }
     }
 }
