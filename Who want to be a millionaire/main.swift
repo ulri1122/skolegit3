@@ -106,7 +106,7 @@ while functionChoice == "s" {
                         //Hvis brugerens svar er det samme som variablen correctAnswerId, print det er korrekt ellers det er ikke korrekt
                     else if userAnswer == question.correctAnswerId { //executer hvis true
                         print("Det er korrekt!")
-                        print("Du har vundet \(question.score)")
+                        print("Du har vundet en omgang med Hans pilgaard efter showet og \(question.score)")
                         answeredQuestion = true //hvis det er korrekt bliver answeredQuestion = true
                         
                         //Printer gevinsten hvis man har passeret checkpoint
