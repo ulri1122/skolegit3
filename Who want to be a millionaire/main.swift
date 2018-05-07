@@ -93,7 +93,7 @@ while functionChoice == "s" {
                 }
                 
                 //'?' vender booleanen rundt og ':' betyder ellers. så spørgsmålet lyder således "hvis hintDeliveret er true, skal den printe en tom streng ellers skal den printe "eller tryk på h for hint"
-                print("skriv dit svar her\(hintDeliveret ? ":" : " eller tryk h for at få en hånder:")")
+                print("skriv dit svar her\(hintDeliveret ? ":" : " eller tryk h for hint:")")
                 let userAnswer = readLine()
                 
                 //Hvis følgene tegn ikke bliver brugt printer den 'Ugyldigt input'
